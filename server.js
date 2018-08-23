@@ -7,7 +7,7 @@ var cache = {}; //Obiekt cache służy do przechowywania buforowanych plików
 //error 404
 function send404(response) {
   response.writeHead(404, {'Content-Type': 'text/plain'});
-  response.write('Błąd 404: plik nie został znaleziony.');
+  response.write('Error 404: plik nie został znaleziony.');
   response.end();
 }
 
