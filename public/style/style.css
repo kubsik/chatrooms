@@ -5,16 +5,19 @@ body {
 a {
   color: #00B7FF;
 }
-#content {//Aplikacja będzie miała szerokość 800 pikseli i zostanie wyśrodkowana poziomo.
+#content {
+//Aplikacja będzie miała szerokość 800 pikseli i zostanie wyśrodkowana poziomo.
   width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
-#room {//Reguła CSS dla elementu, w którym wyświetlana jest nazwa aktualnego pokoju czatu. 
+#room {
+//Reguła CSS dla elementu, w którym wyświetlana jest nazwa aktualnego pokoju czatu. 
   background-color: #ddd;
   margin-bottom: 1em;
 }
-#messages {//Element wiadomości ma szerokość 690 pikseli i wysokość 300 pikseli. 
+#messages {
+//Element wiadomości ma szerokość 690 pikseli i wysokość 300 pikseli. 
   width: 690px;
   height: 300px;
   overflow: auto;  //Element <div> wyświetlający wiadomości czatu będzie mógł być przewijany, gdy wiadomości całkowicie go wypełnią. 
